@@ -1584,7 +1584,7 @@ async fn main() -> io::Result<()> {
         identity_hashes: Mutex::new(identity_hashes),
     });
 
-    info!("Server started at http://127.0.0.1:8080");
+    info!("Server started at http://127.0.0.1:1200");
     HttpServer::new(move || {
         App::new()
             .app_data(app_state.clone())
@@ -1606,7 +1606,7 @@ async fn main() -> io::Result<()> {
             .route("/stats", web::get().to(get_stats))
             .route("/nonce/{public_key}", web::get().to(get_nonce))
     })
-    .bind("127.0.0.1:8080")?
+    .bind("127.0.0.1:1200")?
     .run()
     .await
 }
