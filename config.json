@@ -1,0 +1,7 @@
+{
+  "s3_endpoint": "http://127.0.0.1:9000",
+  "s3_bucket": "cbm",
+  "s3_access_key": "7GhCTYo2jw5QvqsOsQ7o",
+  "s3_secret_key": "NV0uwT2lGJTZaF7poixu2JCz8Mj1Et5qpw1ceBF4",
+  "s3_region": "us-east-1"
+}
