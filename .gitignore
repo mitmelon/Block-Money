@@ -2,4 +2,4 @@
 /target/*
 /src/target/*
 setup.txt
-Cargo.lock
+cargo.lock
